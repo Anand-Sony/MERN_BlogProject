@@ -1,0 +1,124 @@
+/* category-list.css */
+
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+
+  .table-title{
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Component Styles */
+  
+  .button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button-block {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .table-title {
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+  }
+  
+  .categorybutton {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .categorybutton:hover {
+    background-color: #23527c;
+  }
+
+
+
+  /* Add this to your category-list.css file */
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+textarea.form-control {
+  height: 100px; /* adjust the height as needed */
+  resize: vertical; /* allow vertical resizing */
+}
+
+.pag-button{
+  background-color: #dddddd;
+  /* now we will give padding*/
+  padding: 4px;
+  margin: 5px 5px;
+  border: solid 1px;
+}
+.pag-button.active{
+  background-color: #afafaf;
+  padding: 4px;
+  margin: 5px 5px;
+  border: solid 1px;
+}
+
+.no-button{
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+  background-color: #b9b9b9;
+}
+.yes-button{
+  border: none;
+  cursor: pointer;
+  background-color: #e61414;
+}
