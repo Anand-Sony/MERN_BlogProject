@@ -1,0 +1,17 @@
+.primary-link {
+    background-color: aliceblue;
+    padding: 16px 32px;
+}
+
+nav {
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 16px;
+    color: blue; /* add this to prevent default link color */
+}
+
+ nav a:focus {
+    font-weight: bold;
+}
